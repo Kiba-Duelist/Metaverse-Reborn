@@ -21,7 +21,9 @@
       {
         "title": "Classic",
         "gameplay": "Classic",
-        "customCategories": []
+        "customCategories": [
+          "Extra Deck"
+        ]
       }
     ]
   },
@@ -143,7 +145,7 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Extra_Deck"
+          "Extra deck->Extra_Deck"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
@@ -295,7 +297,7 @@
           "Extra_Deck": {
             "title": "Extra_Deck",
             "isHidden": "opponent-only",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "END",
             "opponentAlignment": false,
             "noAutoPayTo": false,
