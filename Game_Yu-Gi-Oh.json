@@ -1,28 +1,21 @@
 {
-  "name": "Yu-Gi-Oh",
+  "name": "Metaverse Reborn",
   "menuBackgroundImage": "https://valcur.github.io/TCG-Arena-Yugioh/Images/banner.jpg",
   "defaultRessources": {
-    "backgrounds": [
-      "https://valcur.github.io/TCG-Arena-Yugioh/Images/1.jpg",
-      "https://valcur.github.io/TCG-Arena-Yugioh/Images/2.jpg",
-      "https://valcur.github.io/TCG-Arena-Yugioh/Images/3.jpg",
-      "https://valcur.github.io/TCG-Arena-Yugioh/Images/4.jpg",
-      "https://valcur.github.io/TCG-Arena-Yugioh/Images/5.jpg"
-    ],
-    "decksUrl": "https://valcur.github.io/TCG-Arena-Yugioh/Yu-Gi-OhDecks.json"
+    "backgrounds": [],
+    "decksUrl": ""
   },
-  "customHelp": "Extra monsters are on the left as I'm missing place to put them on the front. To place a monster in defense faced down, drag the card and press Z key before dropping it to the desired location, then click it to rotate it 90 degrees.",
-  "cardRotation": 90,
+  "customHelp": "",
+  "cardRotation": 45,
   "cards": {
-    "dataUrl": "https://valcur.github.io/TCG-Arena-Yugioh/YugiohCards.json",
-    "cardBack": "https://static.wikia.nocookie.net/yugioh/images/9/95/SlifertheSkyDragon-GBI-AE-Back.png",
-    "cardBackColor": "#C18264"
+    "dataUrl": "https://raw.githubusercontent.com/Kiba-Duelist/Metaverse-Reborn/refs/heads/main/CardList.json",
+    "cardBack": "https://static.wikia.nocookie.net/yugioh/images/9/95/SlifertheSkyDragon-GBI-AE-Back.png"
   },
   "deckBuilding": {
     "mainFilters": [
-      "type",
-      "archetype",
-      "level"
+      "Creature ",
+      "Extra Deck",
+      "Relic"
     ],
     "formats": [
       {
