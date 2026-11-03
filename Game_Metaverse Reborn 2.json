@@ -9,7 +9,7 @@
   "cardRotation": "90",
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/Kiba-Duelist/Metaverse-Reborn/refs/heads/main/CardList.json",
-    "cardBack": "https://static.wikia.nocookie.net/yugioh/images/9/95/SlifertheSkyDragon-GBI-AE-Back.png"
+    "cardBack": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyBddHYziR03pBhPYtvd6_892AF7NDWLlY3Mpm7xqx_3rDvaxeay5reJ3t&s=10"
   },
   "deckBuilding": {
     "mainFilters": [
