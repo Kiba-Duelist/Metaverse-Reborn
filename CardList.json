@@ -1,0 +1,82 @@
+{
+  "Promo-6": {
+    "id": "BetaSet-12",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ren Amamiya",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Kiba-Duelist/Metaverse-Reborn/refs/heads/main/Promos__Joker2.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ren Amamiya",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-27": {
+    "id": "BetaSet-27",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Apple Bloom",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Kiba-Duelist/Metaverse-Reborn/refs/heads/main/Set%200__Apple%20Bloom2.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Apple Bloom",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-19": {
+    "id": "BetaSet-19",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Archer",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Kiba-Duelist/Metaverse-Reborn/refs/heads/main/Set%200__Archer2.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Archer",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-76": {
+    "id": "BetaSet-76",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Bowser",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Kiba-Duelist/Metaverse-Reborn/refs/heads/main/Set%200__Bowser2.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bowser",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-90": {
+    "id": "BetaSet-90",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Dry Bowser",
+        "type": "Awaken",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Kiba-Duelist/Metaverse-Reborn/refs/heads/main/Set%200__Bowser%20Awaken2.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dry Bowser",
+    "type": "Awaken",
+    "cost": 0
+  }
+}
