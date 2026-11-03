@@ -334,5 +334,21 @@
     "name": "Yacker",
     "type": "Creatrue",
     "cost": 0
+  },
+  "BetaSet-7": {
+    "id": "BetaSet-7",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Werewire",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Werewire2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Werewire",
+    "type": "Creatrue",
+    "cost": 0
   }
 }
