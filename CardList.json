@@ -69,12 +69,17 @@
     "face": {
       "front": {
         "name": "Dry Bowser",
-        "type": "Awaken",
+        "type": "Extra Deck",
         "cost": 0,
         "image": "https://raw.githubusercontent.com/Kiba-Duelist/Metaverse-Reborn/refs/heads/main/Set%200__Bowser%20Awaken2.png",
         "isHorizontal": false
       }
     },
+    "name": "Dry Bowser",
+    "type": "Extra Deck",
+    "cost": 0
+  }
+}
     "name": "Dry Bowser",
     "type": "Awaken",
     "cost": 0
