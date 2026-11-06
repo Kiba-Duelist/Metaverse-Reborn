@@ -268,7 +268,7 @@
       }
     },
     "name": "Shadow Milk Cookie",
-    "type": false,
+    "type": "Relic",
     "cost": 0
   },
   "BetaSet-2": {
@@ -348,6 +348,214 @@
       }
     },
     "name": "Werewire",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-30": {
+    "id": "BetaSet-30",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Derpy",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Derpy2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Derpy",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-45": {
+    "id": "BetaSet-45",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Crown Of Death",
+        "type": "Relic",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Crown%20of%20Death2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Crown Of Death",
+    "type": "Relic",
+    "cost": 0
+  },
+  "BetaSet-23": {
+    "id": "BetaSet-23",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Chaser Worm",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Chaser%20Worm2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Chaser Worm",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-14": {
+    "id": "BetaSet-14",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Eggman",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Eggman%202.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Eggman",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-38": {
+    "id": "BetaSet-38",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Espresso Cookie",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Espresso%20Cookie2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Espresso Cookie",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-25": {
+    "id": "BetaSet-25",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Explosive Jellyfish",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Explosive%20Jellyfish2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Explosive Jellyfish",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-28": {
+    "id": "BetaSet-28",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Goomba",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Goomba%202.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Goomba",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-51": {
+    "id": "BetaSet-51",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Pure Vanilla Cookie",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Pure%20Vanilla%20Cookie.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Pure Vanilla Cookie",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-01": {
+    "id": "BetaSet-01",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Scamp",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Scamp2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Scamp",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-49": {
+    "id": "BetaSet-49",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Super Star",
+        "type": "Relic",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Super%20Star2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Super Star",
+    "type": "Relic",
+    "cost": 0
+  },
+  "BetaSet-20": {
+    "id": "BetaSet-20",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Summoner",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Summoner%202.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Summoner",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-35": {
+    "id": "BetaSet-35",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Toad",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Toad2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Toad",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "Promo-3": {
+    "id": "Promo-3",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Infinite",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Promos__Infinite2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Infinite ",
     "type": "Creatrue",
     "cost": 0
   }
