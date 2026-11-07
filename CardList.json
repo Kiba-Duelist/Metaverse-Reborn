@@ -632,7 +632,7 @@
         "type": "Extra Deck",
         "cost": 0,
         "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Nightmare%20Moon%20IR.png?raw=true",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Nightmare Moon",
