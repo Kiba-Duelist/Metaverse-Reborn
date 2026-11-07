@@ -268,7 +268,7 @@
       }
     },
     "name": "Shadow Milk Cookie",
-    "type": "Relic",
+    "type": "Creatrue",
     "cost": 0
   },
   "BetaSet-2": {
@@ -557,6 +557,182 @@
     },
     "name": "Infinite ",
     "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-5": {
+    "id": "BetaSet-5",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Custard Cookie III",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Custard%20Cookie%20III%202.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Custard Cookie III",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-44": {
+    "id": "BetaSet-44",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Elements of Harmony",
+        "type": "Relic",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Elements%20of%20Harmony2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Elements of Harmony",
+    "type": "Relic",
+    "cost": 0
+  },
+  "BetaSet-02": {
+    "id": "BetaSet-02",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Koopa Troopa",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Koopa%20Troopa2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Koopa Troopa",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-86": {
+    "id": "BetaSet-86",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Narinder",
+        "type": "Extra Deck",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Narinder%20Awaken2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Narinder",
+    "type": "Extra Deck",
+    "cost": 0
+  },
+  "BetaSet-88": {
+    "id": "BetaSet-88",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Nightmare Moon",
+        "type": "Extra Deck",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Nightmare%20Moon%20IR.png?raw=true",
+        "isHorizontal": true
+      }
+    },
+    "name": "Nightmare Moon",
+    "type": "Extra Deck",
+    "cost": 0
+  },
+  "BeatSet-4": {
+    "id": "BeatSet-4",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Pancake Cookie",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Pancake%20Cookie2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Pancake Cookie",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-11": {
+    "id": "BetaSet-11",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ralsei",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Ralsei.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ralsei",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-63": {
+    "id": "BetaSet-63",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shadow the Hedgehog",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Shadow.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shadow the Hedgehog",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-34": {
+    "id": "BetaSet-34",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Super Mushroom",
+        "type": "Relic",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Super%20Mushroom2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Super Mushroom",
+    "type": "Relic",
+    "cost": 0
+  },
+  "BetaSet-10": {
+    "id": "BetaSet-10",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Temmie",
+        "type": "Creatrue",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Temmie2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Temmie",
+    "type": "Creatrue",
+    "cost": 0
+  },
+  "BetaSet-43": {
+    "id": "BetaSet-43",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Chaos Emeralds",
+        "type": "Relic",
+        "cost": 0,
+        "image": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/Set%200__Chaos%20Emeralds2.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Chaos Emeralds",
+    "type": "Relic",
     "cost": 0
   }
 }
