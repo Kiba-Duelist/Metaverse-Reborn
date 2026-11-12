@@ -9,7 +9,7 @@
   "cardRotation": "90",
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/Kiba-Duelist/Metaverse-Reborn/refs/heads/main/CardList.json",
-    "cardBack": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyBddHYziR03pBhPYtvd6_892AF7NDWLlY3Mpm7xqx_3rDvaxeay5reJ3t&s=10"
+    "cardBack": "https://raw.githubusercontent.com/Kiba-Duelist/Metaverse-Reborn/refs/heads/main/Lorcana_Card_Back.png"
   },
   "deckBuilding": {
     "mainFilters": [
@@ -75,9 +75,7 @@
                 },
                 {
                   "section": "Damage_Zone",
-                  "style": {
-                    "Height": 20
-                  }
+                  "style": false
                 }
               ],
               "isSymetricalForOpponents": false
