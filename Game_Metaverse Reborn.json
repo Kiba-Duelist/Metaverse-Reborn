@@ -1,35 +1,28 @@
 {
-  "name": "Yu-Gi-Oh",
-  "menuBackgroundImage": "https://valcur.github.io/TCG-Arena-Yugioh/Images/banner.jpg",
+  "name": "Metaverse Reborn Online",
+  "menuBackgroundImage": "https://github.com/Kiba-Duelist/Metaverse-Reborn/blob/main/37b73b6e2e7ed047019963b8d2235a8d.png?raw=true",
   "defaultRessources": {
-    "backgrounds": [
-      "https://valcur.github.io/TCG-Arena-Yugioh/Images/1.jpg",
-      "https://valcur.github.io/TCG-Arena-Yugioh/Images/2.jpg",
-      "https://valcur.github.io/TCG-Arena-Yugioh/Images/3.jpg",
-      "https://valcur.github.io/TCG-Arena-Yugioh/Images/4.jpg",
-      "https://valcur.github.io/TCG-Arena-Yugioh/Images/5.jpg"
-    ],
-    "decksUrl": "https://valcur.github.io/TCG-Arena-Yugioh/Yu-Gi-OhDecks.json"
+    "backgrounds": [],
+    "decksUrl": ""
   },
-  "customHelp": "Extra monsters are on the left as I'm missing place to put them on the front. To place a monster in defense faced down, drag the card and press Z key before dropping it to the desired location, then click it to rotate it 90 degrees.",
-  "cardRotation": 90,
+  "customHelp": "",
+  "cardRotation": "90",
   "cards": {
-    "dataUrl": "https://valcur.github.io/TCG-Arena-Yugioh/YugiohCards.json",
-    "cardBack": "https://static.wikia.nocookie.net/yugioh/images/9/95/SlifertheSkyDragon-GBI-AE-Back.png",
-    "cardBackColor": "#C18264"
+    "dataUrl": "https://raw.githubusercontent.com/Kiba-Duelist/Metaverse-Reborn/refs/heads/main/CardList.json",
+    "cardBack": "https://raw.githubusercontent.com/Kiba-Duelist/Metaverse-Reborn/refs/heads/main/Lorcana_Card_Back.png"
   },
   "deckBuilding": {
     "mainFilters": [
-      "type",
-      "archetype",
-      "level"
+      "Creature ",
+      "Extra Deck",
+      "Relic"
     ],
     "formats": [
       {
         "title": "Classic",
         "gameplay": "Classic",
         "customCategories": [
-          "Extra deck"
+          "Extra Deck"
         ]
       }
     ]
@@ -38,13 +31,13 @@
     "Classic": {
       "mulligan": {
         "info": "",
-        "startingHandSize": "5",
-        "drawNewHand": false,
+        "startingHandSize": "3",
+        "drawNewHand": true,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
       },
       "newTurn": {
-        "drawOnStart": false,
+        "drawOnStart": true,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
@@ -52,25 +45,21 @@
       "defaultNotes": "",
       "tokens": [],
       "countersStartingValues": [
-        "8000"
+        0
       ],
-      "hideFacedDownCards": false,
+      "hideFacedDownCards": true,
       "sections": {
         "customSections": [
-          "Monsters_1",
-          "Monsters_2",
-          "Monsters_3",
-          "Monsters_4",
-          "Monsters_5",
-          "Spells_1",
-          "Spells_2",
-          "Spells_3",
-          "Spells_4",
-          "Spells_5",
-          "Extra_Monster_1",
-          "Extra_Monster_2",
-          "Field",
-          "Extra_Deck"
+          "Creatures_1",
+          "Creatures_2",
+          "Creatures_3",
+          "Creatures_1_HP",
+          "Creatures_2_HP",
+          "Creatures_3_HP",
+          "Extra_Deck",
+          "Damage_Zone",
+          "Level_Zone",
+          "Relic"
         ],
         "layout": {
           "direction": "row",
@@ -78,339 +67,245 @@
           "content": [
             {
               "direction": "column",
-              "style": {
-                "justifyContent": "start",
-                "width": "22vh"
-              },
+              "style": false,
               "content": [
                 {
-                  "direction": "row",
-                  "isSymetricalForOpponents": true,
-                  "content": [
-                    {
-                      "section": "Extra_Monster_1"
-                    },
-                    {
-                      "section": "Extra_Monster_2"
-                    }
-                  ]
+                  "section": "Level_Zone",
+                  "style": false
                 },
                 {
-                  "direction": "row",
-                  "content": [
-                    {
-                      "section": "Field"
-                    }
-                  ],
-                  "isSymetricalForOpponents": true
+                  "section": "Damage_Zone",
+                  "style": false
                 }
-              ]
+              ],
+              "isSymetricalForOpponents": false
             },
             {
               "direction": "column",
-              "style": {
-                "width": "93vh",
-                "marginRight": "auto",
-                "marginLeft": "auto"
-              },
+              "style": false,
               "content": [
                 {
                   "direction": "row",
+                  "style": false,
                   "content": [
                     {
-                      "section": "Monsters_1",
-                      "style": {
-                        "marginRight": "4vh"
-                      }
+                      "section": "Creatures_1",
+                      "style": false
                     },
                     {
-                      "section": "Monsters_2",
-                      "style": {
-                        "marginRight": "4vh"
-                      }
+                      "section": "Creatures_2",
+                      "style": false
                     },
                     {
-                      "section": "Monsters_3",
-                      "style": {
-                        "marginRight": "4vh"
-                      }
-                    },
-                    {
-                      "section": "Monsters_4",
-                      "style": {
-                        "marginRight": "4vh"
-                      }
-                    },
-                    {
-                      "section": "Monsters_5"
+                      "section": "Creatures_3",
+                      "style": false
                     }
-                  ]
+                  ],
+                  "isSymetricalForOpponents": false
                 },
                 {
                   "direction": "row",
+                  "style": false,
                   "content": [
                     {
-                      "section": "Spells_1",
-                      "style": {
-                        "marginRight": "4vh"
-                      }
+                      "section": "Creatures_1_HP",
+                      "style": false
                     },
                     {
-                      "section": "Spells_2",
-                      "style": {
-                        "marginRight": "4vh"
-                      }
+                      "section": "Creatures_2_HP",
+                      "style": false
                     },
                     {
-                      "section": "Spells_3",
-                      "style": {
-                        "marginRight": "4vh"
-                      }
-                    },
-                    {
-                      "section": "Spells_4",
-                      "style": {
-                        "marginRight": "4vh"
-                      }
-                    },
-                    {
-                      "section": "Spells_5"
+                      "section": "Creatures_3_HP",
+                      "style": false
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "width": "12vh"
-              },
-              "content": [
-                {
-                  "section": "Extra_Deck"
+                  ],
+                  "isSymetricalForOpponents": false
                 }
               ],
-              "isSymetricalForOpponents": true
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "column",
+              "style": false,
+              "content": [
+                {
+                  "section": "Relic",
+                  "style": false
+                },
+                {
+                  "section": "Extra_Deck",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Extra deck->Extra_Deck"
+          "Extra Deck->Extra_Deck"
         ],
         "autoPlayFromHand": {},
-        "autoPlayFromStack": {
-          "Trap": "Discard",
-          "Spell": "Discard"
-        },
+        "autoPlayFromStack": {},
         "sectionsDict": {
-          "Spells_1": {
-            "title": "Spells_1",
+          "Creatures_3": {
+            "title": "Creatures_3",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Creatures",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Creatures_1": {
+            "title": "Creatures_1",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Creatures",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Creatures_2": {
+            "title": "Creatures_2",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Creatures",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Creatures_1_HP": {
+            "title": "Creatures_1_HP",
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "HP 1",
+            "noQuickActions": false,
             "enterTapped": false,
+            "enterSpun": false,
             "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": true
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
-          "Spells_2": {
-            "title": "Spells_2",
+          "Creatures_3_HP": {
+            "title": "Creatures_3_HP",
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "HP 3",
+            "noQuickActions": false,
             "enterTapped": false,
+            "enterSpun": false,
             "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": true
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
-          "Spells_3": {
-            "title": "Spells_3",
+          "Creatures_2_HP": {
+            "title": "Creatures_2_HP",
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "HP 2",
+            "noQuickActions": false,
             "enterTapped": false,
+            "enterSpun": false,
             "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": true
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
-          "Spells_4": {
-            "title": "Spells_4",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": true
-          },
-          "Spells_5": {
-            "title": "Spells_5",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": true
-          },
-          "Monsters_1": {
-            "title": "Monsters_1",
+          "Damage_Zone ": {
+            "title": "Damage_Zone ",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "NONE",
+            "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
-            "noQuickActions": true,
+            "displayedTitle": "Damage Zone ",
+            "noQuickActions": false,
             "enterTapped": false,
+            "enterSpun": false,
             "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
+            "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Monsters_2": {
-            "title": "Monsters_2",
+          "Level_Zone": {
+            "title": "Level_Zone",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "NONE",
+            "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
-            "noQuickActions": true,
+            "displayedTitle": "Level Zone",
+            "noQuickActions": false,
             "enterTapped": false,
+            "enterSpun": false,
             "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
+            "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Monsters_3": {
-            "title": "Monsters_3",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "NONE",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
-            "noQuickActions": true,
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false
-          },
-          "Monsters_4": {
-            "title": "Monsters_4",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "NONE",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
-            "noQuickActions": true,
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false
-          },
-          "Monsters_5": {
-            "title": "Monsters_5",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "NONE",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
-            "noQuickActions": true,
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false
-          },
-          "Extra_Monster_1": {
-            "title": "Extra_Monster_1",
+          "Relic": {
+            "title": "Relic",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "NONE",
+            "alignment": "END",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Extra monster 1",
-            "noQuickActions": true,
+            "displayedTitle": "Relic",
+            "noQuickActions": false,
             "enterTapped": false,
+            "enterSpun": false,
             "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false
-          },
-          "Extra_Monster_2": {
-            "title": "Extra_Monster_2",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "NONE",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Extra monster 2",
-            "noQuickActions": true,
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false
-          },
-          "Field": {
-            "title": "Field",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Field",
-            "noQuickActions": true,
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
+            "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
           "Extra_Deck": {
             "title": "Extra_Deck",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": "SMALL",
-            "alignment": "DECK",
+            "alignment": "END",
             "opponentAlignment": false,
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Extra deck",
-            "noQuickActions": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Extra Deck",
+            "noQuickActions": false,
             "enterTapped": false,
+            "enterSpun": false,
             "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
+            "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
         }
